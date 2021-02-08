@@ -1,2 +1,2 @@
-# gii
-Apuntes del Grado de Ingeniería Informática UGR
+# APUNTES
+Apuntes del Grado de `Ingeniería Informática UGR`
