@@ -1,0 +1,21 @@
+Circuit: * C:\Users\dsano\Desktop\Informática\Primero\FFT\Practicas\Practica3\Pracitca3.asc
+
+.OP point found by inspection.
+
+Date: Sat Nov 28 20:24:44 2020
+Total elapsed time: 0.130 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6922
+traniter = 6922
+tranpoints = 3462
+accept = 3378
+rejected = 84
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 50 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2:      15 opcodes  0.0/[0.0]/0.0
+

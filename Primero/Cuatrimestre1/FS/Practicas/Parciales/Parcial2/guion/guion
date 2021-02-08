@@ -1,0 +1,46 @@
+#!/bin/bash
+
+if test ! $# -eq 2
+then
+	echo "El número de argumentos introducido es distinto de 2"
+	exit
+fi
+
+declare -i contador
+
+contador=1
+
+if [ ! -d "$1" ]; then
+	echo "El directorio no existe"
+	exit
+fi
+
+if [ ! -f "$2" ]; then
+	echo "El archivo no existe"
+	exit 
+fi
+
+while test $contador -lt 5
+do
+	echo "ESTAMOS EN LA ITERACIÓN NÚMERO $(($contador))"
+
+	case $contador in
+		1) elementos=`ls $1/ | tr " " "\n" | wc -l`
+		   archivos=`find $1 -type f | wc -l`
+		   directorios=$((`find $1 -type d | wc -l` - 1))
+		   echo "De un total de $elementos elementos hay $archivos archivos y $directorios subdirectorios" ;;
+		2) read -p "Introduzca un número:" numero
+		   if [ $(($numero % 2)) -eq 0 ]; then
+		   	echo "El número $numero es par"
+		   else
+		   	echo "El número $numero es impar"
+		   fi ;;
+		3) cat $2 | head -n $numero > resultado && echo "Archivo con las $numero primeras líneas de $2 creado correctamente" ;;
+		
+		4) echo "Se ha finalizado la ejecución del bucle" ;;			
+	esac
+	
+	contador=$(($contador + 1))
+done
+
+

@@ -1,0 +1,15 @@
+Crea un script o guión llamado guion que tenga dos argumentos y la siguiente sintaxis:  guion <nombre_directorio> <nombre_archivo>
+
+Su funcionamiento es el siguiente:
+
+- Debe comenzar haciendo un control de errores:
+	- Comprobar que se introduce el número correcto de argumentos. En caso contrario informar del error y salir.
+	- Comprobar que los argumentos son un nombre de directorio y de archivo válidos. En caso contrario informar del error y salir.
+
+- Hacer un bucle que realice cuatro iteraciones. En cada iteración se debe mostrar un mensaje indicando por dónde va : “estamos en la iteración n.º x” y en cada caso debe realizar lo siguiente:
+	- En la primera iteración hay que contar el número de subdirectorios y de archivos que hay en el directorio pasado como primer argumento, e imprimir un mensaje indicándolo: “de un total de n elementos hay x archivos y z subdirectorios”
+	- En la segunda iteración hay que mostrar un mensaje por pantalla pidiendo que se introduzca un número por teclado. Una vez leído dicho número hay que mostrar un mensaje informando de si es par o impar.
+	- En la tercera iteración hay que escribir las primeras n líneas (siendo n el número introducido por teclado en la segunda iteración) del archivo pasado como segundo argumento en un nuevo archivo llamado resultado.
+	- En la cuarta iteración se debe mostrar un mensaje indicando que se ha finalizado la ejecución del bucle.
+
+

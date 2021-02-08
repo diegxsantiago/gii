@@ -1,0 +1,47 @@
+
+
+
+Matrícula:	4733MTI
+Velocidad:	147.5 km/h
+
+Matrícula:	1976KEX
+Velocidad:	88.1 km/h
+
+Matrícula:	7717UQS
+Velocidad:	75.6 km/h
+
+Matrícula:	4744SEU
+Velocidad:	74.6 km/h
+
+Matrícula:	5232LTL
+Velocidad:	97.1 km/h
+
+Matrícula:	6188MOH
+Velocidad:	108.3 km/h
+
+Matrícula:	6603JHQ
+Velocidad:	151.1 km/h
+
+Matrícula:	6898DVW
+Velocidad:	No ha salido
+
+Matrícula:	3330PRB
+Velocidad:	172.4 km/h
+
+Matrícula:	1758HRV
+Velocidad:	130.2 km/h
+
+Matrícula:	8210YVI
+Velocidad:	No ha salido
+
+Matrícula:	9265JJA
+Velocidad:	No ha salido
+
+Matrícula:	4864DUN
+Velocidad:	No ha salido
+
+Matrícula:	1071VVF
+Velocidad:	No ha salido
+
+Matrícula:	5917FBY
+Velocidad:	No ha salido

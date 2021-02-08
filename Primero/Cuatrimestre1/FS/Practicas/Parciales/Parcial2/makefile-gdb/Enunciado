@@ -1,0 +1,23 @@
+1) A continuación tienes una serie de archivos .cpp. Existe un archivo cabecera llamado funciones.h donde están las definiciones de las funciones suma y division que se utilizan en main.cpp. Realiza con ellos las siguientes acciones:
+
+- Guarda el archivo funciones.h en un directorio llamado includes
+
+- Crea un archivo llamado makefile que te permita automatizar el proceso de creación de un ejecutable llamado mitad a partir de los archivos objeto main.o, suma.o y division.o y del archivo funciones.h. Realiza el makefile de la forma más compacta posible (usa el menor número de reglas) y más general (usa variables para lo que creas oportuno).
+
+2) Comprueba si el programa anterior realiza bien su función:
+
+- Vuelve a crear el ejecutable mitad pero ahora compilando en el terminal con la opción de depuración.
+
+- Ejecuta el programa, ¿funciona como se espera?
+
+- Realiza las operaciones necesarias de depuración (breakpoints, visualización de variables, etc.)
+
+- Corrige el fallo y vuelve a comprobar el funcionamiento del programa.
+
+- Crea un archivo de texto llamado ejercicio2 donde pongas:
+
+- La secuencia de acciones enviadas al gdb que hayas utilizado, explicando para qué las has utilizado y su resultado en pantalla.
+
+- El error detectado y cómo lo has corregido.
+
+- El código en ensamblador de la función suma.
